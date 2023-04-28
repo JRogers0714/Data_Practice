@@ -1,5 +1,16 @@
 
+input_one = input("Type any string")
+input_two = input("Type any string")
 
+suf = input_one.endswith()
+
+result: bool = False
+
+if input_two == suf:
+    result = True
+    print(result)
+else:
+    print(result)
 
 # def solution(pt_one, pt_two):
 
