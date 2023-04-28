@@ -1,16 +1,22 @@
+# the kata wants me to be able to take two inputs and see if the second matches the end of the first.
 
-input_one = input("Type any string")
-input_two = input("Type any string")
+def solution(pt_one, pt_two):
 
-suf = input_one.endswith()
+    suf = pt_one.endswith(pt_one)
 
-result: bool = False
+    result: bool = False
 
-if input_two == suf:
-    result = True
-    print(result)
-else:
-    print(result)
+    if pt_two == suf:
+        result = True
+        print(result)
+    else:
+        print(result)
+
+
+#  input_one = input("Type any string")
+#   input_two = input("Type any string")
+
+print(solution(pt_one=input("Type any string: "), pt_two=input("Type any string: ")))
 
 # def solution(pt_one, pt_two):
 
