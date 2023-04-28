@@ -1,16 +1,14 @@
-# This is a sample Python script.
+def solution(pt_one, pt_two):
+    pt_one = input("Type any string...")
+    pt_two = input("Type any string...")
+    result = False
+    for x in pt_one:
+        for y in pt_two:
+            if x == y:
+                result = True
+                return result
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    return result
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+solution()
